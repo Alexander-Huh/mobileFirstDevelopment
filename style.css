@@ -1,0 +1,75 @@
+main {
+  margin-top: 60px;
+}
+
+main h1 {
+  margin: 0 10px;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 65px;
+}
+
+main h2 {
+  margin: 18px 0 12px 0;
+  border-bottom: 1px solid #5c4f41;
+  font-family: "Special Elite", cursive;
+  font-size: 24px;
+}
+
+main h3 {
+  margin: 18px 0 12px 0;
+  border-bottom: 1px solid #5c4f41;
+  font-family: "Special Elite", cursive;
+  font-size: 18px;
+  padding: 5%;
+}
+
+main p {
+  font-family: "Roboto", sans-serif;
+  margin-top: 0;
+}
+p {
+  padding: 5%;
+}
+ img {
+  justify-content: center;
+ }
+
+/* classes */
+.item {
+  flex: 1;
+}
+.itemDouble {
+  flex: 2;
+}
+
+.item img {
+  flex: 1;
+  width: 85%;
+  padding: 10%;
+}
+
+.itemDouble img {
+    width: 75%;
+    padding: 5%;
+}
+
+.group{
+  display: flex;
+  flex-direction: column;
+}
+
+.brownBackground {
+  background-color: rgb(123, 88, 60);
+}
+
+@media all and (min-width: 800px) {
+  section,
+  h1 {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
+
